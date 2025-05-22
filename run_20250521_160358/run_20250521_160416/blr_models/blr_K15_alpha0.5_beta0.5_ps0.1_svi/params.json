@@ -1,0 +1,9 @@
+{
+  "K": 15,
+  "alpha": 0.5,
+  "beta": 0.5,
+  "prior_scale": 0.1,
+  "method": "svi",
+  "val_accuracy": 0.55364978061428,
+  "val_auc": 0.5028027735737317
+}

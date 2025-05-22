@@ -1,0 +1,9 @@
+{
+  "K": 20,
+  "alpha": 0.1,
+  "beta": 0.01,
+  "prior_scale": 0.1,
+  "method": "mcmc",
+  "val_accuracy": 0.8659752692461109,
+  "val_auc": 0.8472875677216994
+}
