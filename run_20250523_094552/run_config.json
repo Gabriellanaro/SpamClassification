@@ -1,0 +1,38 @@
+{
+  "K_values": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "alpha_values": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "beta_values": [
+    0.01,
+    0.1,
+    0.5
+  ],
+  "prior_scale_values": [
+    0.1,
+    1.0
+  ],
+  "blr_methods": [
+    "svi",
+    "mcmc"
+  ],
+  "lda_iters": 400,
+  "blr_svi_iters": 1400,
+  "blr_mcmc_samples": 1000,
+  "blr_mcmc_warmup": 200,
+  "total_count": 100,
+  "input_file": "processed_sms_data.csv",
+  "run_timestamp": "20250523_094552",
+  "matrix_shape": [
+    5572,
+    1468
+  ],
+  "vocabulary_size": 1468
+}
