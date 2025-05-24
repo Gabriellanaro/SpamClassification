@@ -1,0 +1,27 @@
+{
+  "hyperparameters": {
+    "K": 5,
+    "alpha": 0.5,
+    "beta": 0.1,
+    "prior_scale": 1.0,
+    "method": "mcmc"
+  },
+  "training_config": {
+    "lda_iters": 10,
+    "blr_svi_iters": null,
+    "blr_mcmc_samples": 10,
+    "blr_mcmc_warmup": 10,
+    "total_count": 100
+  },
+  "performance": {
+    "test_accuracy": 0.8655913978494624,
+    "test_auc": 0.5436576949620429,
+    "previous_val_accuracy": 0.905284147557328
+  },
+  "data_info": {
+    "total_samples": 5572,
+    "train_samples": 5014,
+    "test_samples": 558,
+    "vocab_size": 1470
+  }
+}
